@@ -8,9 +8,9 @@ sap.ui.define([
         onInit() {
         },
         onAddition() {
-            var value1=parseInt(this.getView().byId("idVal1").getValue());
-            var value2=parseInt(this.getView().byId("idVal2").getValue());
-            var add=value1+value2;
+            let value1=parseInt(this.getView().byId("idVal1").getValue());
+            let value2=parseInt(this.getView().byId("idVal2").getValue());
+            let add=value1+value2;
 
 
             MessageBox.alert("Total of two numbers " + add, {
@@ -33,9 +33,9 @@ sap.ui.define([
 
         },
         onMulitiplication (){
-            var value1=parseInt(this.getView().byId("idVal1").getValue());
-            var value2=parseInt(this.getView().byId("idVal2").getValue());
-            var mul=value1*value2;
+            let value1=parseInt(this.getView().byId("idVal1").getValue());
+            let value2=parseInt(this.getView().byId("idVal2").getValue());
+            let mul=value1*value2;
 
             // MessageToast.show("Multipule of two numbers " + mul, {
             //     duration: 3000,                  // default

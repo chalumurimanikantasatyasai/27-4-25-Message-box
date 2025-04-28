@@ -3,6 +3,7 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <content>
+
             <VBox>
 
                 <Input id="idVal1" placeholder="Enter Value1" width="15%" />
@@ -11,11 +12,13 @@
 
                   <HBox>
                      <Button text="ADD" id="idbtnadd" press="onAddition" icon="sap-icon://add" />
-                     <Button text="MUL" id="idbtnmul" press="onMulitiplication" icon="sap-icon://decline"/>
+
+                     <Button text="MUL" id="idbtnmul" press="onMulitiplication" icon="sap-icon://decline" />
                    </HBox>
                 
             </VBox>
 
         </content>
     </Page>
+    
 </mvc:View>
