@@ -27,10 +27,6 @@ sap.ui.define([
             this.getView().byId("idVal1").setValue("");
             this.getView().byId("idVal2").setValue("");
 
-            //  alert("Total of two numbers " + total);
-           // console.log(total);
-            
-
         },
         onMulitiplication (){
             let value1=parseInt(this.getView().byId("idVal1").getValue());
@@ -125,7 +121,6 @@ sap.ui.define([
             this.getView().byId("idVal1").setValue("");
             this.getView().byId("idVal2").setValue("");
 
-            //  alert("Total of two numbers " + total);
            // console.log(total);
             
         }
